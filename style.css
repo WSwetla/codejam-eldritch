@@ -1,17 +1,24 @@
-.cards img {
+.azathoth img,
+.cthulthu img,
+.iogSothoth img,
+.shubNiggurath img {
    width: 200px;
    margin-left: 111px;
    cursor: pointer;
    border-radius: 10px;
 }
 
-.cards img:active,
+.azathoth img:active,
+.cthulthu img:active,
+.iogSothoth img:active,
+.shubNiggurath img:active,
 .cardsContainer img:active {
    border: solid 1px rgb(42, 20, 241);
    box-shadow:  12px 12px 2px 1px rgba(0, 0, 255, .2);;
 }
 
 .cards {
+   display: flex;
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
